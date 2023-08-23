@@ -1,0 +1,77 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 110px;
+  padding-right: 110px;
+}
+
+.btn{
+  margin-top: 10px;
+}
+
+.card-title{
+font-size: 20px;
+}
+
+.card{
+  margin-bottom: 10px;
+}
+
+.wrapper{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.input{
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: auto;
+  border: 1px solid green;
+}
